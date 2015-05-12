@@ -12,4 +12,5 @@ package Enlace;
 public interface Constantes_para_enlace {
      public static final String ARCHIVO_EN_EL_QUE_ESTAN_LAS_URLS_INICIALES = "URLS.xml";
      public static final String ARCHIVO_EN_EL_QUE_ESTAN_LAS_CONFIGURACIONES = "configuracion.xml";
+     public static final String ARCHIVO_EN_EL_QUE_ESTAN_LAS_CONFIGURACIONE1S ="j";
 }
