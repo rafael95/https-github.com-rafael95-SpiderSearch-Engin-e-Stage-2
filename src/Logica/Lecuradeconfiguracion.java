@@ -35,7 +35,7 @@ public class Lecuradeconfiguracion {
 
     NodoDE Node_de_heap;
 
-    public void Lecturaxml(
+    public void Lecturaconfig(
                               Nodoparaheap[] lista_heap_final
                             , ListaDE lista_doble_enlazada_para_la_salida_del_heap 
                             , Lectura_de_archivos pLlama_a_clase_lectura_de_archivos

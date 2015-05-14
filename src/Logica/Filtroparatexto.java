@@ -22,6 +22,13 @@ int NUMERO_DE_PALABRAS_EN_LOS_ARCHIVOS=0;
     /**
  *Metodo para obtener palabras de un texto
  * @author rafael, anderson
+     * @param ptexto
+     * @param pvalor
+     * @param pdirectorio
+     * @param purl
+     * @param parbol_para_rojonegro
+     * @param parbol_para_avl
+     * @param plista_doble_enlazada_para_arbol
  */
     
     public void Filtroparatexto(String ptexto,int pvalor,String pdirectorio,

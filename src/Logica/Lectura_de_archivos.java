@@ -23,7 +23,9 @@ import org.apache.tika.Tika;
 import org.apache.tika.exception.TikaException;
 
 /**
- *
+ *clase que se encarga de obtener los archivos de los lugares donde son contenidos 
+ * ya sea carpetas compartidas, urls, asrchivos de computadora y los convierte en 
+ * un string para mandarselo a la clase Filtro para texto
  * @author rafael
  */
 public class Lectura_de_archivos {

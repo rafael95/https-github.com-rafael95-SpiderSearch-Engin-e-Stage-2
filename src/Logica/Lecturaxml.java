@@ -29,6 +29,10 @@ import org.jdom2.input.SAXBuilder;
  * Lee los parametros del xml para poder inicializar las listas
  *
  * @author rafael, anderson
+ * Este método se encarga de cargar el archivo xml con las urls y el peso asociado 
+ * para que los con la dirección de los archivos sean creados y enviados para obtener
+ * las palabras
+
  * *@param xmlFile
  * *@param lo
  * *@param Listaurl
@@ -79,7 +83,7 @@ public class Lecturaxml {
 
         lista_heap_final = arbol_para_heap.muestra();
 
-        referencia_clase_Lecuradeconfiguracion.Lecturaxml(
+        referencia_clase_Lecuradeconfiguracion.Lecturaconfig(
                          lista_heap_final
                         ,pLista_doble_enlazada_para_la_salida_del_heap
                         ,pLlama_a_clase_lectura_de_archivos
